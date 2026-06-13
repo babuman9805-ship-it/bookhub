@@ -212,7 +212,7 @@ export default function ReaderInterface({ bookId, initialChapterIndex = 0 }: Rea
           </button>
           
           <div className="flex flex-col">
-            <h1 className="font-extrabold text-sm uppercase tracking-tight truncate max-w-[150px] sm:max-w-[300px]">
+            <h1 className="font-extrabold text-sm tracking-tight truncate max-w-[150px] sm:max-w-[300px]">
               {book.title}
             </h1>
             <span className="text-[10px] text-zinc-500 dark:text-zinc-400 font-semibold leading-none mt-0.5">
@@ -438,7 +438,7 @@ export default function ReaderInterface({ bookId, initialChapterIndex = 0 }: Rea
             )}
 
             {/* Chapter Headline */}
-            <h2 className="text-lg md:text-xl font-black uppercase tracking-wider mb-8 text-center opacity-85">
+            <h2 className="text-lg md:text-xl font-black tracking-wider mb-8 text-center opacity-85">
               {activeChapter?.title}
             </h2>
 

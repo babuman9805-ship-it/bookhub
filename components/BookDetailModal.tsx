@@ -112,7 +112,7 @@ export default function BookDetailModal() {
                 <span className="text-[10px] md:text-xs tracking-widest text-netflix-red font-black uppercase bg-black/40 px-2 py-0.5 rounded w-fit block mb-2">
                   BookFlix Original
                 </span>
-                <h1 className="text-3xl md:text-5xl font-black tracking-tight drop-shadow-[0_4px_6px_rgba(0,0,0,0.95)] uppercase mb-1 leading-none">
+                <h1 className="text-3xl md:text-5xl font-black tracking-tight drop-shadow-[0_4px_6px_rgba(0,0,0,0.95)] mb-1 leading-none">
                   {book.title}
                 </h1>
                 <p className="text-zinc-300 font-bold text-sm md:text-lg drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)]">
@@ -274,7 +274,7 @@ export default function BookDetailModal() {
                               {rec.rating} ★
                             </span>
                             <span 
-                              className="font-bold text-white text-[10px] sm:text-xs truncate uppercase drop-shadow-[0_1px_3px_rgba(0,0,0,0.9)]"
+                              className="font-bold text-white text-[10px] sm:text-xs truncate drop-shadow-[0_1px_3px_rgba(0,0,0,0.9)]"
                             >
                               {rec.title}
                             </span>

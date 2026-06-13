@@ -197,7 +197,7 @@ export default function ProfilePage() {
                     className="bg-black/30 border border-zinc-800/40 p-4 rounded hover:border-zinc-700 transition flex flex-col justify-between aspect-[16/9]"
                   >
                     <span className="text-zinc-500 text-[10px] font-bold uppercase">{book.author}</span>
-                    <span className="font-extrabold text-white text-sm uppercase line-clamp-1 mt-1">{book.title}</span>
+                    <span className="font-extrabold text-white text-sm line-clamp-1 mt-1">{book.title}</span>
                     <div className="flex justify-between items-center text-[10px] text-zinc-400 mt-4 border-t border-zinc-850 pt-2">
                       <span className="flex items-center text-yellow-500">
                         <Star className="w-3.5 h-3.5 fill-current mr-0.5" />
